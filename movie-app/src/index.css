@@ -1,0 +1,14 @@
+.movie{
+    cursor: pointer;
+
+}
+.movie:hover{
+    border: solid 1px blue;
+    box-shadow: inset 2p red;
+}
+
+.selected-movie{
+    background-color: brown;
+    color: #ffff;
+    transition: all 0.55s ease
+}
